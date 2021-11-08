@@ -1,0 +1,151 @@
+ .dep1sub>a:nth-of-type(4) {
+	background-color: #a4180e;
+}
+ .dep2sub>a:nth-of-type(1) {
+	background-color: #a4180e;
+}
+
+#h2box {
+	background-image: url(../images/vis_promote.jpg);
+}
+
+.recruit_area {
+	 padding: 50px 0;
+}
+   
+.recruit_box {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.r_title {
+	font-size: 1.6em;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: -0.03em;
+	word-break: keep-all;
+	padding-top: 15px;
+}
+
+.r_bold {
+	font-weight: 700;
+}
+
+.r_text {
+	font-size: 0.95em;
+	color: #666;
+	text-align: center;
+	letter-spacing: -0.03em;
+	word-break: keep-all;
+	padding-top: 20px;
+}
+
+.rbox_title {
+	width: 100%;
+	height: 53px;
+	line-height: 53px;
+	text-align: center;
+	background-color: #4683ce;
+	font-size: 1.2em;
+	font-weight: 700;
+	color: #fff;
+}
+
+.rbox_light {
+	font-weight: 300;
+}
+
+.rbox_cont {
+	width: 100%;
+	padding: 30px;
+	background-color: #f6f6f6;
+	margin-bottom: 20px;
+}
+
+.rbox_text {
+	font-size: 0.95em;
+	color: #666;
+	position: relative;
+}
+
+.rbox_text li {
+	margin-left: 20px;
+}
+
+.rbox_text li::before {
+	content: "";
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: #4683ce;
+	position: absolute;
+	left: 0;
+    margin-top: 8px;
+}
+
+.rbox_text li:first-of-type {
+	margin-bottom: 20px;
+}
+
+.recruit_box>.recruit_div:nth-of-type(2)>.rbox_title {
+	background-color: #7796bc;
+}
+
+.recruit_box>.recruit_div:nth-of-type(2) .rbox_text li::before {
+	background-color: #7796bc;
+}
+.recruit_box>.recruit_div:nth-of-type(3)>.rbox_title {
+	background-color: #a3abaf;
+}
+
+.recruit_box>.recruit_div:nth-of-type(3) .rbox_text li::before {
+	background-color: #a3abaf;
+}
+
+
+@media all and (width: 320px) {
+	
+	.r_title {
+		font-size: 1.25em;
+	}
+	
+	.r_text {
+		font-size: 0.9em;
+		color: #666;
+	}
+	
+	.rbox_title {
+		height: 48px;
+		line-height: 48px;
+		font-size: 1.05em;
+	}
+	
+	.recruit_box>.recruit_div:nth-of-type(2)>.rbox_title {
+		height: 65px;
+		padding-top: 8px;
+		line-height: 1.5em;
+		word-break: keep-all;
+	}
+	
+	.rbox_cont {
+		padding: 23px;
+	}
+	
+	.rbox_text {
+		font-size: 0.87em;
+	}
+	
+	.recruit_box>.recruit_div:nth-of-type(3)>.rbox_cont {
+		margin-bottom: 0px;
+	}
+	
+	
+	
+}
+	
+	
+	
+	
+	
+	

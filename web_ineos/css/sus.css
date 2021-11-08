@@ -1,0 +1,315 @@
+ .dep1sub>a:nth-of-type(3) {
+	background-color: #a4180e;
+}
+ .dep2sub>a:nth-of-type(1) {
+	background-color: #a4180e;
+}
+
+#h2box {
+	background-image: url(../images/vis_csm.jpg);
+}
+
+.nav_scr {
+	padding-bottom: 45px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.nav_btn {
+	margin: 0 auto;
+	width: 100%;
+	height: 48px;
+	background-color: #f3f4f7;
+	margin-bottom: 5px;
+	text-align: center;
+	line-height: 48px;
+}
+
+.focus {
+	background-color: #da291c;
+	color: #fff;
+}
+
+.nav_btn:hover {
+	background-color: #da291c;
+	opacity: 0.9;
+	color: #fff;
+}
+
+#sus_01 {
+	padding: 50px 20px;
+}
+
+#sus_01>img {
+	width: 100%;
+	padding: 0 20px;
+	margin: 0 auto;
+	display: block;
+}
+
+.sus_area {
+	padding-bottom: 50px;
+}
+
+.s_title {
+	font-size: 1.3em;
+	margin-top: 48px;
+}
+.s_text {
+	font-size: 0.95em;
+	color: #666;
+	word-break: keep-all;
+	padding-top: 16px;
+}
+
+#sus_02, #sus_04 {
+	background-color: #f6f6f6;
+	padding: 50px 20px;
+}
+
+
+.sus_goal>div {
+	width: 100%;
+	height: 97px;
+	text-align: center;
+	line-height: 97px;
+	font-size: 1.25em;
+	color: #fff;
+	font-weight: 100;
+}
+
+.goal_bold {
+	font-weight: 700;
+}
+
+.sus_goal>div:nth-of-type(1) {
+	background-image: url(../images/csm_01.jpg);
+	background-size: cover;
+	margin-top: 16px;
+}
+.sus_goal>div:nth-of-type(2) {
+	background-image: url(../images/csm_02.jpg);
+	background-size: cover;
+}
+.sus_goal>div:nth-of-type(3) {
+	background-image: url(../images/csm_03.jpg);
+	background-size: cover;
+}
+
+.cer_box {
+	width: 100%;
+    background-color: #fff;
+    box-shadow: 2px 2px 13px rgba(0,0,0,0.1);
+	padding: 27px 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+.cer_imgbox {
+	max-width: 160px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	float: left;
+
+}
+
+.cer_imgbox>img {
+	max-width: 160px;
+    width: 100%;
+}
+
+.cer_textbox {
+	width: auto;
+	display: inline-block;
+	padding-left: 20px;
+	position: relative;
+	top: 0px;
+	float: left;
+}
+
+.zoombtn {
+	background-image: url(../images/zoom.png);
+	background-size: cover;
+	background-color: transparent;
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	right: 15px;
+	bottom: 25px;
+	position: absolute;
+	border: none;
+}
+
+
+
+.cer_title {
+	font-size: 0.95em;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.cer_text {
+	font-size: 0.85em;
+	color: #666;
+	margin-bottom: 5px;
+}
+
+.ev_box {
+	text-align: center;
+}
+.sus_sub {
+	font-size: 1.1em;
+	letter-spacing: -0.05em;
+	color: #666;
+	word-break: keep-all;
+	text-align: center;
+/*	padding-top: 40px;*/
+}
+
+#sus_03, #sus_05 {
+	padding: 50px 20px;
+}
+
+.sus_sub_bold {
+	font-weight: 700;
+	color: #000;
+}
+
+.ev_box>img {
+	width: 100%;
+	margin: 50px 0px 30px 0px;
+}
+
+.ev_title {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #222;
+	margin-bottom: 10px;
+}
+
+.ev_title>span {
+	color: #00a651;
+	padding-right: 10px;
+}
+
+.ev_text {
+	font-size: 0.95em;
+	color: #666;
+	line-height: 1.8em;
+	letter-spacing: -0.05em;
+	word-break: keep-all;
+}
+
+#s_modal {
+	position: fixed;
+	z-index: 10000;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+}
+
+/*
+#s_modalwin {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 1em;
+}
+*/
+
+#s_modal img {
+	width: 280px;
+	clear: both;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+
+
+@media all and (width: 320px) {
+	
+	.nav_scr {
+		padding-bottom: 0px;
+	} 
+	
+	.nav_btn {
+		height: 40px;
+		line-height: 40px;
+		font-size: 0.9em;
+	}
+	
+	#sus_01, #sus_02, #sus_03, #sus_04, #sus_05 {
+		padding: 45px 20px;
+	}
+	
+	.s_title {
+		font-size: 1.05em;
+		margin-top: 40px;
+	}
+	.s_text {
+		font-size: 0.85em;
+		padding-top: 12px;
+	}
+	
+	.sus_goal>div {
+		height: 90px;
+		line-height: 90px;
+		font-size: 1.1em;
+	}
+	
+	.cer_box {
+		padding: 20px 12px;
+	}
+	
+	.cer_imgbox {
+		width: 130px;
+	}
+	
+	.cer_textbox {
+		padding-left: 5px;
+		top: -5px;
+	}
+	
+	.cer_title {
+		font-size: 0.9em;
+		margin-bottom: 3px;
+	}
+
+	.cer_text {
+		font-size: 0.8em;
+		margin-bottom: 3px;
+	}
+	
+	.cer_imgbox::after {
+		right: 15px;
+		bottom: 20px;
+	}
+	
+	.sus_sub {
+		font-size: 0.95em;
+		line-height: 1.7em;
+	}
+	
+	.ev_title {
+		font-size: 1.25em;
+		margin-bottom: 10px;
+	}
+
+	.ev_text {
+		font-size: 0.85em;
+		line-height: 1.8em;
+	}
+
+
+
+	
+}

@@ -1,0 +1,271 @@
+ .dep1sub>a:nth-of-type(2) {
+	background-color: #a4180e;
+}
+ .dep2sub>a:nth-of-type(1) {
+	background-color: #a4180e;
+}
+
+
+#h2box {
+	background-image: url(../images/vis_products.jpg);
+}
+
+
+.product_name {
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #333;
+	margin-bottom: 12px;
+}
+
+.product_area {
+	margin-bottom: 80px;
+}
+.p_ex {
+	font-size: 0.95em;
+	color: #666;
+	word-break: keep-all;
+	padding-top: 15px;
+}
+
+.productbox {
+	background-color: #f6f6f6;
+}
+
+.downloadbox {
+	margin-top: 30px;
+}
+
+.downloadbox>a {
+	float: left;
+	width: calc((100% - 10px) / 2);
+	height: 45px;
+	display: block;
+	margin: 0 5px 5px 0;
+	background-color: #fff;
+    border: 1px solid #d3d3d3;
+	color: #666;
+	font-size: 0.85em;
+	padding-left: 10px;
+	line-height: 43px;
+}
+
+.downloadbox>a:hover {
+	 border-color: #999;
+}
+
+  
+
+.downloadbox>a:nth-of-type(even) {
+	margin: 0 0px 5px 0;
+}
+
+.ic_link, .ic_down {
+	display: inline-block;
+	width: 7px;
+	height: 13px;
+	background-image: url(../images/ic_link.png);
+	background-position: center;
+	float: right; 
+	margin-right: 15px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.ic_down {
+	width: 13px;
+	background-image: url(../images/ic_down.png);
+}
+
+.productbox>img {
+	width: 100%;
+	margin: 25px auto;
+}
+
+.sub_name {
+	font-size: 1.12em;
+	margin-bottom: 15px;
+}
+
+.products {
+	width: 100%;
+	height: 251px;
+/*	position: relative;*/
+}
+
+.products>div {
+	width: calc((100% - 16px) / 2);
+	margin: 0 16px 16px 0;
+	height: 97px;
+	float: left;
+	text-align: center;
+	line-height: 97px;
+	color: #fff;
+	font-size: 1.12em;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+/*	position: absolute;*/
+}
+
+.products>div:nth-of-type(even) {
+	margin-right: 0;
+} 
+.products_1>div:nth-of-type(1) {
+	background-image: url(../images/pd_01_01.jpg);
+}
+.products_1>div:nth-of-type(2) {
+	background-image: url(../images/pd_01_02.jpg);
+}
+.products_1>div:nth-of-type(3) {
+	background-image: url(../images/pd_01_03.jpg);
+}
+.products_1>div:nth-of-type(4) {
+	background-image: url(../images/pd_01_04.jpg);
+}
+.products_2>div:nth-of-type(1) {
+	background-image: url(../images/pd_02_01.jpg);
+}
+.products_2>div:nth-of-type(2) {
+	background-image: url(../images/pd_02_02.jpg);
+}
+.products_2>div:nth-of-type(3) {
+	background-image: url(../images/pd_02_03.jpg);
+}
+.products_2>div:nth-of-type(4) {
+	background-image: url(../images/pd_02_04.jpg);
+}
+.products_3>div:nth-of-type(1) {
+	background-image: url(../images/pd_03_01.jpg);
+}
+.products_3>div:nth-of-type(2) {
+	background-image: url(../images/pd_03_02.jpg);
+}
+
+.products_other {
+	height: 139px;
+}
+
+.product_title {
+	font-size: 1.75em;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.accodian {
+	border-top: 2px solid #000;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.acc_btn {
+	font-size: 0.87em;
+	color: #444;
+	padding: 15px 25px;
+	border-bottom: 1px solid #d7d7d7;
+	position: relative;
+}
+
+.acc_btn::before {
+	content: "Q.";
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #da291c;
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-55%);
+}
+
+.acc_btn>span {
+	display: inline-block;
+	width: 13px;
+	height: 7px;
+	background-image: url(../images/ic_link2.png);
+	background-position: center;
+	float: right; 
+	margin-top: 7px;
+/*	transform: rotate(90deg);*/
+}
+
+.acc_btn_active {
+	transform: rotate(180deg);
+}
+
+/*
+
+.acc_active {
+	content: "";
+	display: inline-block;
+	width: 7px;
+	height: 13px;
+	background-image: url(../images/ic_link.png);
+	background-position: center;
+	float: right; 
+	margin-top: 4px;
+	transform: rotate(-90deg);
+}
+*/
+
+
+.acc_cont {
+	font-size: 0.8em;
+	line-height: 1.7em;
+	color: #444;
+	padding: 20px 40px;
+	background-color: #f2f2f2;
+	border-top: 1px dotted #d7d7d7;
+	border-bottom: 1px solid #d7d7d7;
+	display: none;
+}
+
+.acc_active {
+	display: block;
+}
+
+
+
+
+
+@media all and (width: 320px) {
+	
+	.product_name {
+		font-size: 2.25em;
+	}
+	
+	.p_ex {
+		font-size: 0.87em;
+	}
+	
+	.downloadbox>a {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.downloadbox>a:nth-of-type(even) {
+		margin-bottom: 10px;
+	}
+	
+	.sub_name {
+		font-size: 1.05em;
+	}
+	
+	.products>div {
+		font-size: 1em;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
